@@ -1,10 +1,10 @@
 /* general */
 body {
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	background-color: #fff;
-	margin: 0;
-	padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 /* navbar */ 
@@ -44,6 +44,28 @@ body {
 .cta-solicitala{
   border-radius: 30px;
   background-color: #9e3667;
+  font-weight: 600;
+  border: 0px;
+  width: 100%;
+
+}
+
+.cta-solicitala :hover, :active, :after, :visited{
+  border-radius: 30px;
+  background-color: #9e3667;
+  border: 1px solid #9e3667;
+  font-weight: 600;
+
+}
+
+.btn-icon{
+  width: 50px;
+}
+
+.btn-solicitala{
+  border-radius: 30px;
+  background-color: #9e3667;
+  width: 100%;
 }
     
 /* footer */
