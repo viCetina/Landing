@@ -62,7 +62,8 @@
 			<div class="col-sm-4 contenedor-cta">
 				<p>¿Ya conoces nuestras tarjetas?</p>
 				<div class="cta-solicitala">
-                    <img src="images/icon-inicio.png" alt="¡Solicítala ya!">
+                    <button type="button" class="btn btn-default btn-solicitala" data-toggle="modal" data-target="#myModal">
+                    <img src="check-mark.png" class="btn-icon" alt="btn">
                     <span>¡Solicítala ya!</span>
                 </div>
 				<!--<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">-->
@@ -70,6 +71,27 @@
 			<div class="col-sm-4"></div>
 		</div>
 	</div>
+
+<!-- Modal inicio -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+			    <div class="modal-header">
+				    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			    </div>
+			    <div class="modal-body">
+			        ...
+			    </div>
+			    <div class="modal-footer">
+				    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				    <button type="button" class="btn btn-primary">Save changes</button>
+			    </div>
+	    	</div>
+		</div>
+	</div>
+<!-- Modal fin -->
+
 <!-- /// seccion principal fin /// -->
 
 <!-- /// pie de página inicio /// -->
