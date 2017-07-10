@@ -1,0 +1,63 @@
+/* general */
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+/* navbar */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #EC0000;
+  height: 70px;
+}
+
+/* carrusel */ 
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:100%;
+}
+
+.control-op, :after, :before{
+  opacity: .1;
+}
+
+/* Sección principal */
+
+.texto-ppal{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.contenedor-cta{
+  border-radius: 10px;
+  height: 150px;
+  margin-bottom: 80px;
+  padding: 20px;
+  border: 3px solid #9e3667;
+}
+
+.cta-solicitala{
+  border-radius: 30px;
+  background-color: #9e3667;
+}
+    
+/* footer */
+footer {
+  background-color: #EC0000;
+  color:#fff;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px;
+}
+  
+.avisos a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
